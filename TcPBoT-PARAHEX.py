@@ -624,7 +624,7 @@ class CLIENT:
             if self.online_writer and self.whisper_writer == None:
                 await asyncio.gather(task1 , task2)
     async def MaiiiinE(self):
-        Uid , Pw = '4173633506','4519359CE804B4462826136577A2F3DFD7C1C2FB3934359E772193363CCFAD66'
+        Uid , Pw = '4288118002','F6974A8E667BB3FBB854DD87F8B055FB58FC91E6785ECF0B6932B355CE361746'
         
         open_id , access_token = await GeNeRaTeAccEss(Uid , Pw)
 
@@ -682,4 +682,5 @@ async def StarTinG():
         except Exception as e:import traceback; print(f"ErroR TcP - {e} => ResTarTinG ...");traceback.print_exc()
 
 if __name__ == '__main__':
+
     asyncio.run(StarTinG())
